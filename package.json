@@ -1,6 +1,13 @@
 {
+  "name": "clothing-search",
+  "version": "1.0.0",
+  "description": "AI-basierte Kleidungs-Suchplattform",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
   }
 }
